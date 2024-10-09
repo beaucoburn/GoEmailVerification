@@ -10,6 +10,7 @@ var (
   verifier = emailverifier.
     NewVerifier()
     EnableSMTPCheck()
+    DisableCatchAllCheck()
 )
 
 func main() {
